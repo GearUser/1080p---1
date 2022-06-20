@@ -99,9 +99,9 @@ async def encod(event):
         es = dt.now()
         kk = dl.split("/")[-1]       
         hh = kk
-        hh = hh.replace("[Erai-raws]", "[ANIMEXT]")
+        hh = hh.replace("Erai raws", "[ANIMEXT]")
         vv = hh
-        vv = vv.replace("Erai raws", "[ANIMEXT]")
+        vv = vv.replace("Erai-raws", "ANIMEXT")
         ss = vv
         ss = ss.replace("_", " ")          
         jj = ss
