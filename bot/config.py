@@ -27,7 +27,7 @@ try:
     )
     THUMB = config(
         "THUMBNAIL", default="www.google.com"
-    
+    )
 except Exception as e:
     LOGS.info("Environment vars Missing")
     LOGS.info("something went wrong")
