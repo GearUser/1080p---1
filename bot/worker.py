@@ -101,9 +101,9 @@ async def encod(event):
         hh = kk
         hh = hh.replace("_", " ")
         vv = hh
-        vv = vv.replace("Erai raws", "[ANIMEXT]")
+        vv = vv.replace("Erai raws", "[Yugen]")
         ss = vv
-        ss = ss.replace("Erai-raws", "ANIMEXT")          
+        ss = ss.replace("Erai-raws", "Yugen")          
         jj = ss
         jj = jj.replace("1080p", "1080p x265")
         ii = jj
@@ -154,7 +154,7 @@ async def encod(event):
                 ),
             )
         ds = await e.client.send_file(
-             filz_channel_id, file=ok, caption="**" + mm + "**" + "\n" + "`• 1080p x265 HEVC 10 Bit`" + "\n" + "`• Eng Sub`", force_document=True, thumb=thum
+             filz_channel_id, file=ok, caption="**" + mm + "**" + "\n" + "`• 1080p x265 HEVC 10 Bit`" + "\n" + "`• Multiple Subtitles`", force_document=True, thumb=thum
         )
         await nnn.edit(mm + " Encoded Successfully✅",                   
                        buttons=[]
