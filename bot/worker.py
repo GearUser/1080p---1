@@ -107,7 +107,7 @@ async def encod(event):
         jj = ss
         jj = jj.replace("1080p", "1080p x265")
         ii = jj
-        ii = ii.replace("Sly-Fox", "")
+        ii = ii.replace("Multiple Subtitles", "")
         mm = ii
         mm = ' '.join(mm.split()[:-2])
         rr = f"encode"
